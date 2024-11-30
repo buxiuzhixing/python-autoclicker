@@ -2,7 +2,7 @@ import pyautogui
 from pynput.keyboard import *
 
 #  ======== settings ========
-delay = 1  # in seconds
+delay = float(input("请输入延迟时间（建议为1）："))  # in seconds
 resume_key = Key.f1
 pause_key = Key.f2
 exit_key = Key.esc
@@ -26,15 +26,15 @@ def on_press(key):
 
 
 def display_controls():
-    print("// AutoClicker by iSayChris")
-    print("// - Settings: ")
-    print("\t delay = " + str(delay) + ' sec' + '\n')
-    print("// - Controls:")
-    print("\t F1 = Resume")
-    print("\t F2 = Pause")
-    print("\t F3 = Exit")
+    print("// 连点器 by iSayChris")
+    print("// - 设置： ")
+    print("\t 每" + str(delay) + '秒' + '点1次\n')
+    print("// - 控制：")
+    print("\t F1 = 开始")
+    print("\t F2 = 暂停")
+    print("\t F3 = 退出")
     print("-----------------------------------------------------")
-    print('Press F1 to start ...')
+    print('按下F1以开始...')
 
 
 def main():

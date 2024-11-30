@@ -8,5 +8,5 @@ setup(
     license='',
     author='isaychris',
     author_email='',
-    description='A simple autoclicker with controls using pyautogui'
+    description='一个简单的自动点击器，使用pyautogui进行控制。'
 )

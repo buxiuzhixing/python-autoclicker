@@ -1,24 +1,24 @@
 # python-autoclicker
-A simple autoclicker with controls using pyautogui. 
+一个简单的自动点击器，使用pyautogui进行控制。
 ![Image](https://i.imgur.com/QIh8yAA.png)
 
-Default delay is 1 second.
+默认延迟时间为1秒。
 
-**Note:**  
-As a fail-safe, moving your mouse to the very top left corner will exit the program.
+**注意：**  
+作为保险措施，将鼠标移到左上角将退出程序。
 
 
-# Controls
+# 快速上手
 
-Key | Action
+案件 | 操作
 --- | ---
-F1 | Resumes the autotyper
-F2 | Pauses the autotyper
-ESC | Exits the program
+F1 | 恢复自动点击器
+F2 | 暂停自动点击器
+ESC | 退出程序
 
-If you want to change the shortcut keys, change their values with the keycodes provided here:
+如果要更改快捷键，请使用下面提供的键码更改它们的值：
 https://pythonhosted.org/pynput/keyboard.html
 
 
-# Future Enhancement
-* GUI
+# 未来的增强
+* 图形化界面
