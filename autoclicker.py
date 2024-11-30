@@ -16,13 +16,13 @@ def on_press(key):
 
     if key == resume_key:
         pause = False
-        print("[Resumed]")
+        print("[运行中]")
     elif key == pause_key:
         pause = True
-        print("[Paused]")
+        print("[暂停]")
     elif key == exit_key:
         running = False
-        print("[Exit]")
+        print("[退出]")
 
 
 def display_controls():
@@ -32,7 +32,7 @@ def display_controls():
     print("// - 控制：")
     print("\t F1 = 开始")
     print("\t F2 = 暂停")
-    print("\t F3 = 退出")
+    print("\t ESC = 退出")
     print("-----------------------------------------------------")
     print('按下F1以开始...')
 
